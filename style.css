@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: url(img/background.jfif);
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.btn-container {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 25px;
+    padding: 40px;
+    display: none;
+}
+.btn-container button {
+    width: 30px;
+    height: 30px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+
+}
+#play, #reload{
+    width: 100px;
+    padding: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: #16eb56;
+    border: none;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 10px 10px 15px black;
+    cursor: pointer;
+}
+#play:hover{
+    background-color: #119739;
+}
+#reload{
+    background-color: #da6666;
+    width: 110px;
+}
+#reload:hover{
+    background-color: #cf2323;
+}
+
+#guessWord { 
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: white;
+    
+}
+#reload{
+    display: none;
+}
